@@ -1,4 +1,7 @@
 // @flow strict
+"use client"; // ✅ Ensures this component runs only on the client side
+
+// @flow strict
 import { personalData } from "@/utils/data/personal-data";
 import Link from "next/link";
 import { BiLogoLinkedin } from "react-icons/bi";

@@ -13,7 +13,10 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["res.cloudinary.com", "media.dev.to"],
+    // ✅ REMOVE domains
+    // domains: ["res.cloudinary.com", "media.dev.to"], ❌
+
+    // ✅ USE remotePatterns only
     remotePatterns: [
       {
         protocol: "https",

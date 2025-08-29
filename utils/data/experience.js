@@ -19,7 +19,7 @@ export const experiences = [
     id: 3,
     title: "ML/AI Projects",
     company: "Personal Projects & Research",
-    duration: "(2021 - Present)",
+    duration: "(2021)",
     description:
       "Building and implementing various machine learning projects, focusing on deep learning and AI applications.",
   },
