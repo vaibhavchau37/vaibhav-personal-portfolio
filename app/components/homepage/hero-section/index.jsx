@@ -9,6 +9,10 @@ import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
 function HeroSection() {
+  if (typeof window !== "undefined") {
+    // safe to use document or window here
+  }
+
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       {/* Hero background image */}
