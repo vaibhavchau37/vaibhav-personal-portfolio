@@ -9,24 +9,43 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
+  try {
+    const res = await fetch(
+      `https://dev.to/api/articles?username=${personalData.devUsername}`,
+      {
+        next: { revalidate: 3600 }, // Revalidate every hour
+      }
+    );
 
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
+    if (!res.ok) {
+      return [];
+    }
+
+    const data = await res.json();
+    if (!Array.isArray(data)) {
+      return [];
+    }
+
+    const filtered = data
+      .filter((item) => item?.cover_image)
+      .sort(() => Math.random() - 0.5);
+    return filtered;
+  } catch (error) {
+    console.error("Error fetching blog data:", error);
+    return [];
   }
-
-  const data = await res.json();
-
-  const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
-
-  return filtered;
-};
+}
 
 export default async function Home() {
-  const blogs = await getData();
+  let blogs = [];
+  try {
+    blogs = (await getData()) || [];
+  } catch (error) {
+    console.error("Error in Home component:", error);
+  }
 
   return (
-    <div suppressHydrationWarning >
+    <main suppressHydrationWarning className="min-h-screen">
       <HeroSection />
       <AboutSection />
       <Experience />
@@ -35,6 +54,6 @@ export default async function Home() {
       <Education />
       <Blog blogs={blogs} />
       <ContactSection />
-    </div>
-  )
-};
+    </main>
+  );
+}

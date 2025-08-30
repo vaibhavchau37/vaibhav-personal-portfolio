@@ -1,3 +1,4 @@
+"use client";
 // @flow strict
 
 import { personalData } from "@/utils/data/personal-data";
@@ -7,11 +8,12 @@ import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import { useEffect } from "react";
 
 function HeroSection() {
-  if (typeof window !== "undefined") {
-    // safe to use document or window here
-  }
+  useEffect(() => {
+    // Safe to use document/window here
+  }, []);
 
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">

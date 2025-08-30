@@ -1,5 +1,4 @@
 "use client";
-
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
@@ -38,7 +37,7 @@ function Skills() {
           play={true}
           direction="left">
           {skillsData.map((skill, id) => {
-            const SkillIcon = skillsImage(skill);
+            const icon = skillsImage(skill);
             return (
               <div
                 className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
@@ -51,8 +50,8 @@ function Skills() {
                   </div>
                   <div className="flex flex-col items-center justify-center gap-3 p-6">
                     <div className="h-8 sm:h-10">
-                      {SkillIcon ? (
-                        <SkillIcon width={40} height={40} alt={skill} />
+                      {icon ? (
+                        <Image src={icon} width={40} height={40} alt={skill} />
                       ) : (
                         <div className="h-full w-full flex items-center justify-center bg-gray-700 text-white text-xs rounded-lg">
                           ?

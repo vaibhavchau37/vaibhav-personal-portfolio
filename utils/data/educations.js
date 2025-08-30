@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Bachelor of Technology in Computer Science",
-    duration: "2023 - Present",
+    duration: "2023 - 2027",
     institution: "PP Savani University",
     description: "Specializing in Machine Learning and Artificial Intelligence",
   },

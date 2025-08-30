@@ -1,6 +1,6 @@
 
 
-# [ML/AI Developer Portfolio](https://github.com/vaibhav37/developer-portfolio)
+# [ML/AI Developer Portfolio](https://github.com/vaibhavchau37/developer-portfolio)
 
 ---
 

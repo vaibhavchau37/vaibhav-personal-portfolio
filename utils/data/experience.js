@@ -1,8 +1,8 @@
 export const experiences = [
   {
     id: 1,
-    title: "ML Research Intern",
-    company: "Bitcodings Private Ltd.",
+    title: "ML Model Research ",
+    company: "Self-projects.",
     duration: "(Jan 2023 - Jun 2023)",
     description:
       "Worked on implementing machine learning models and conducting research in computer vision applications.",
