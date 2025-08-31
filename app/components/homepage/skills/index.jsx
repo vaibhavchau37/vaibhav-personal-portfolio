@@ -2,7 +2,8 @@
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
+import dynamic from "next/dynamic";
+const Marquee = dynamic(() => import("react-fast-marquee"), { ssr: false });
 
 function Skills() {
   return (
@@ -49,15 +50,23 @@ function Skills() {
                     </div>
                   </div>
                   <div className="flex flex-col items-center justify-center gap-3 p-6">
-                    <div className="h-8 sm:h-10">
-                      {icon ? (
-                        <Image src={icon} width={40} height={40} alt={skill} />
+                    <div className="h-10 w-10 flex items-center justify-center">
+                      {icon &&
+                      typeof icon === "string" &&
+                      icon.trim() !== "" ? (
+                        <Image
+                          src={icon}
+                          width={40}
+                          height={40}
+                          alt={skill || "Skill icon"}
+                        />
                       ) : (
-                        <div className="h-full w-full flex items-center justify-center bg-gray-700 text-white text-xs rounded-lg">
+                        <div className="h-10 w-10 flex items-center justify-center bg-gray-700 text-white text-xs rounded-lg">
                           ?
                         </div>
                       )}
                     </div>
+
                     <p className="text-white text-sm sm:text-lg">{skill}</p>
                   </div>
                 </div>
