@@ -1,60 +1,60 @@
-import python from "../app/assets/svg/skills/python.svg";
-import tensorflow from "../app/assets/svg/skills/tensorflow.svg";
-import pandas from "../app/assets/svg/skills/pandas.svg";
-import pytorch from "../app/assets/svg/skills/pytorch.svg";
-import scikitlearn from "../app/assets/svg/skills/scikit-learn.svg";
-import opencv from "../app/assets/svg/skills/opencv.svg";
-import numpy from "../app/assets/svg/skills/numpy.svg";
-import git from "../app/assets/svg/skills/git.svg";
-import fallback from "../app/assets/svg/skills/fallback.svg";
+import PythonIcon from "../app/assets/svg/skills/python.svg";
+import TensorFlowIcon from "../app/assets/svg/skills/tensorflow.svg";
+import PandasIcon from "../app/assets/svg/skills/pandas.svg";
+import PyTorchIcon from "../app/assets/svg/skills/pytorch.svg";
+import ScikitLearnIcon from "../app/assets/svg/skills/scikit-learn.svg";
+import OpenCVIcon from "../app/assets/svg/skills/opencv.svg";
+import NumPyIcon from "../app/assets/svg/skills/numpy.svg";
+import GitIcon from "../app/assets/svg/skills/git.svg";
+import FallbackIcon from "../app/assets/svg/skills/fallback.svg";
 
 export const skillsImage = (skill) => {
-  if (!skill || typeof skill !== "string") return { src: fallback };
+  if (!skill || typeof skill !== "string") return FallbackIcon;
 
   const skillID = skill.toLowerCase().trim();
 
   switch (skillID) {
     case "python":
-      return python;
+      return PythonIcon;
     case "tensorflow":
-      return tensorflow;
+      return TensorFlowIcon;
     case "pytorch":
-      return pytorch;
+      return PyTorchIcon;
     case "scikit-learn":
     case "sklearn":
     case "machine learning":
-      return scikitlearn;
+      return ScikitLearnIcon;
     case "deep learning":
-      return tensorflow;
+      return TensorFlowIcon;
     case "neural networks":
-      return pytorch;
+      return PyTorchIcon;
     case "computer vision":
-      return opencv;
+      return OpenCVIcon;
     case "natural language processing":
     case "nlp":
-      return pytorch;
+      return PyTorchIcon;
     case "data science":
     case "data analysis":
-      return pandas;
+      return PandasIcon;
     case "pandas":
-      return pandas;
+      return PandasIcon;
     case "numpy":
-      return numpy;
+      return NumPyIcon;
     case "matplotlib":
-      return python;
+      return PythonIcon;
     case "keras":
-      return tensorflow;
+      return TensorFlowIcon;
     case "generative ai":
-      return tensorflow;
+      return TensorFlowIcon;
     case "git":
-      return git;
+      return GitIcon;
     case "sql":
-      return fallback;
+      return FallbackIcon;
     case "opencv":
-      return opencv;
+      return OpenCVIcon;
     case "jupyter":
-      return fallback;
+      return FallbackIcon;
     default:
-      return fallback;
+      return FallbackIcon;
   }
 };

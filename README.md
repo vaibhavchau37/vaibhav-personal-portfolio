@@ -1,275 +1,436 @@
 
 
-# [ML/AI Developer Portfolio](https://github.com/vaibhavchau37/developer-portfolio)
+# 🚀 Vaibhav Chaudhary - ML/AI Developer Portfolio
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.5.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
 
-# Developer Portfolio
+## 📋 About
 
-#### A modern and customizable portfolio website showcasing my expertise in Machine Learning, Artificial Intelligence, and Data Science. This portfolio is designed to highlight ML/AI projects, research work, and technical skills in an elegant and professional manner.
+A modern, responsive, and highly customizable portfolio website built with **Next.js 15** and **React 19**. This portfolio showcases expertise in **Machine Learning**, **Artificial Intelligence**, and **Data Science** with an elegant, professional design that highlights ML/AI projects, research work, and technical skills.
 
----
+### ✨ Key Features
 
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://vaibhav-chaudhary.netlify.app/)
-
----
-
-## Table of Contents :scroll:
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
+- 🎨 **Modern UI/UX** with smooth animations and responsive design
+- 🚀 **Next.js 15** with App Router for optimal performance
+- 🎭 **Interactive Skills Section** with animated skill cards
+- 📱 **Fully Responsive** design for all devices
+- 🌙 **Dark Theme** optimized for developer portfolios
+- 📧 **Contact Form** with email integration
+- 📝 **Blog Integration** with dev.to API
+- 🎯 **SEO Optimized** with proper meta tags
+- 🔧 **Easy Customization** through configuration files
 
 ---
 
-# Sections :bookmark:
+## 🎬 Demo
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+![Portfolio Preview](./public/image/screen.png)
+
+### 🌐 Live Preview
+**View the live portfolio:** [vaibhav-chaudhary.netlify.app](https://vaibhav-chaudhary.netlify.app/)
+
+### 📱 Mobile Responsive
+The portfolio is fully responsive and optimized for all devices - desktop, tablet, and mobile.
 
 ---
 
-# Installation :arrow_down:
+## 📑 Table of Contents
 
-### You will need to download Git and Node to run this project
+- [About](#-about)
+- [Demo](#-demo)
+- [Sections](#-sections)
+- [Installation](#-installation)
+- [Getting Started](#-getting-started)
+- [Usage](#-usage)
+- [Deployment](#-deployment)
+- [Troubleshooting](#-troubleshooting)
+- [Tutorials](#-tutorials)
+- [Tech Stack](#-tech-stack)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+---
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+## 🎯 Sections
+
+The portfolio includes the following main sections:
+
+- 🏠 **Hero Section** - Introduction with animated background
+- 👨‍💻 **About Me** - Personal information and professional summary
+- 💼 **Experience** - Work experience and professional journey
+- 🛠️ **Skills** - Technical skills with interactive skill cards
+- 🚀 **Projects** - Showcase of ML/AI projects and applications
+- 🎓 **Education** - Academic background and certifications
+- 📝 **Blog** - Latest blog posts from dev.to integration
+- 📞 **Contact** - Contact form and social media links
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- **Node.js** (v18.0 or higher) - [Download here](https://nodejs.org/en/download/)
+- **Git** - [Download here](https://git-scm.com/downloads)
+- **npm** or **yarn** package manager
+
+### Verify Installation
+
+Check that you have the correct versions installed:
 
 ```bash
-node --version
-git --version
+node --version    # Should be v18.0 or higher
+npm --version     # Should be v8.0 or higher
+git --version     # Any recent version
 ```
 
-## <br />
+## 🚀 Getting Started
 
-# Getting Started :dart:
+### 1. Fork and Clone the Repository
 
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
+First, fork this repository by clicking the **Fork** button at the top right of the page. Then clone your forked repository:
 
 ```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
+git clone https://github.com/<YOUR-GITHUB-USERNAME>/developer-portfolio.git
 cd developer-portfolio
 ```
 
-### Install packages from the root directory
+### 2. Install Dependencies
+
+Install all required packages using npm or yarn:
 
 ```bash
+# Using npm
 npm install
-# or
+
+# Using yarn
 yarn install
 ```
 
-Then, run the development server:
+### 3. Start Development Server
+
+Run the development server:
 
 ```bash
+# Using npm
 npm run dev
-# or
+
+# Using yarn
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. View the Application
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio running locally.
+
+The page will automatically reload when you make changes to the source files.
 
 ---
 
-### Running with Docker Compose
+### 🐳 Running with Docker
 
-1. **Build Docker Image and Run Container**:
+#### Option 1: Using Docker Compose (Recommended)
 
-   ```bash
-   docker-compose up --build
-   ```
+```bash
+# Build and run the application
+docker-compose up --build
 
-2. **Access the Application**:
-   Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-### Building the Docker Image
-
-1. **Build the Docker Image using Dockerfile.dev**:
-
-   ```bash
-   docker build -t nextjs-app -f Dockerfile.dev .
-   ```
-
-2. **Running the Docker Container**:
-
-   ```bash
-   docker run -p 3000:3000 nextjs-app
-   ```
-
-3. **Access the Application**:
-   Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-# Usage :joystick:
-
-Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_GTM =
-NEXT_PUBLIC_APP_URL =
-TELEGRAM_BOT_TOKEN =
-TELEGRAM_CHAT_ID =
-GMAIL_PASSKEY =
-EMAIL_ADDRESS =
+# Access the application at http://localhost:3000
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+#### Option 2: Using Docker directly
 
-Eg:
+```bash
+# Build the Docker image
+docker build -t nextjs-portfolio -f Dockerfile.dev .
+
+# Run the container
+docker run -p 3000:3000 nextjs-portfolio
+
+# Access the application at http://localhost:3000
+```
+
+---
+
+## ⚙️ Usage
+
+### 1. Environment Variables Setup
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+# Google Tag Manager (Optional)
+NEXT_PUBLIC_GTM=your_gtm_id
+
+# App URL
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# Telegram Bot (Optional - for contact form notifications)
+TELEGRAM_BOT_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
+
+# Email Configuration (Optional)
+GMAIL_PASSKEY=your_gmail_app_password
+EMAIL_ADDRESS=your_email@gmail.com
+```
+
+### 2. Customize Your Data
+
+Edit the files in the `utils/data/` folder to personalize your portfolio:
+
+#### Personal Information (`utils/data/personal-data.js`)
 
 ```javascript
 export const personalData = {
-  name: "VAIBHAV CHAUDHARY",
-  profile: "/profile.png",
-  designation: "Machine Learning Engineer & AI Developer",
-  description:
-    "A passionate ML/AI developer with expertise in deep learning, computer vision, and natural language processing...",
+  name: "YOUR NAME",
+  profile: "/your-profile-image.png",
+  designation: "Your Professional Title",
+  description: "Your professional description...",
   email: "your.email@example.com",
-  phone: "+91XXXXXXXXXX",
-  address: "India",
-  github: "https://github.com/vaibhav37",
-  linkedIn: "https://www.linkedin.com/in/vaibhav-chaudhary/",
-  twitter: "https://twitter.com/vaibhav_ai",
-  kaggle: "https://www.kaggle.com/vaibhav37",
-  research: "https://scholar.google.com/citations?user=your_id",
-  devUsername: "vaibhav37",
-  resume: "https://drive.google.com/file/d/your_resume_link",
+  phone: "+1234567890",
+  address: "Your Location",
+  github: "https://github.com/yourusername",
+  linkedIn: "https://www.linkedin.com/in/yourprofile",
+  devUsername: "yourdevusername", // For dev.to blog integration
+  resume: "https://your-resume-link.com",
 };
 ```
 
-`devUsername` is used for fetching blog posts from `dev.to`.
+#### Skills (`utils/data/skills.js`)
 
----
-
-# Deployment :rocket:
-
-Deploying the app to platforms like Vercel or Netlify is quick and easy.
-
-## Deploying to Vercel:
-
-1. **Sign up or log in** to [Vercel](https://vercel.com/).
-2. Once logged in, click on **"New Project"**.
-3. Select your **GitHub repo** (the one that contains your forked project) and click **Import**.
-4. Configure your environment variables in the Vercel dashboard by adding each key from your `.env` file.
-   - E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
-5. Click on **Deploy**. Vercel will automatically detect your Next.js app and build it.
-6. Once the deployment is complete, you can visit your live website!
-
-### Updating After Deployment
-
-Whenever you push changes to your GitHub repo, Vercel will automatically redeploy the app, keeping your portfolio up-to-date.
-
-## Deploying to Netlify:
-
-1. **Sign up or log in** to [Netlify](https://www.netlify.com/).
-2. In the **Netlify Dashboard**, click **"New site from Git"**.
-3. Connect your **GitHub** account and select your repo.
-4. Configure your environment variables by going to **Site Settings > Build & Deploy > Environment** and adding keys from your `.env` file.
-5. Click **Deploy Site**. Netlify will build and deploy your portfolio.
-
----
-
-# Tutorials :wrench:
-
-## Gmail App Password Setup
-
-1. **Log in to your Google Account** at [https://myaccount.google.com/](https://myaccount.google.com/).
-2. Navigate to **Security** from the left sidebar.
-3. Scroll down to the **"Signing in to Google"** section and make sure **2-Step Verification** is turned ON.
-4. Once 2-Step Verification is enabled, you'll see an option for **App Passwords**.
-5. Click on **App Passwords**. You may need to enter your Google account password again.
-6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
-7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
-
-## Create a Telegram Bot
-
-1. **Open Telegram** and search for the user **@BotFather**.
-2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
-3. Choose a name for your bot.
-4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
-5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
-6. To get your chat ID:
-   - Open your bot in Telegram and send it a message.
-   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
-     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
-
-## Fetching Blog from dev.to
-
-To display your blog posts from dev.to on the portfolio:
-
-1. Set your `devUsername` in the `utils/data.js` file to your dev.to username.
-2. The application will automatically fetch your latest blog posts and display them in the **BLOG** section.
-3. Ensure your blogs are publicly visible on dev.to, and the application will fetch them using the dev.to API.
-
----
-
-# Packages Used :package:
-
-|   Used Package List    |
-| :--------------------: |
-|    @emailjs/browser    |
-|  @next/third-parties   |
-|         axios          |
-|      lottie-react      |
-|          next          |
-|       nodemailer       |
-|         react          |
-|       react-dom        |
-|   react-fast-marquee   |
-| react-google-recaptcha |
-|      react-icons       |
-|     react-toastify     |
-|         sharp          |
-|          sass          |
-|      tailwindcss       |
-
----
-
-# FAQ:
-
-1. For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
-
-Run the following command:
-
-```bash
-
-npm install -g next
-
+```javascript
+export const skillsData = [
+  "Python",
+  "Machine Learning",
+  "Deep Learning",
+  "TensorFlow",
+  "PyTorch",
+  // Add your skills here
+];
 ```
 
-This installs Next.js globally
+#### Projects (`utils/data/projects-data.js`)
 
-then do the usual `npm run dev`
-"# vaibhav-personal-portfolio" 
-"# vaibhav-personal-portfolio" 
-"# vaibhav-personal-portfolio" 
+```javascript
+export const projectsData = [
+  {
+    id: 1,
+    title: "Your Project Title",
+    des: "Project description...",
+    img: "/image/project1.jpg",
+    iconLists: ["/path/to/icon1.svg", "/path/to/icon2.svg"],
+    link: "https://your-project-link.com",
+  },
+  // Add more projects
+];
+```
+
+### 3. Add Your Images
+
+- Replace `/public/vaibhav.png` with your profile image
+- Add project images to `/public/image/` folder
+- Update image paths in your data files accordingly
+
+---
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Sign up/Login** to [Vercel](https://vercel.com/)
+2. Click **"New Project"**
+3. Import your GitHub repository
+4. Configure environment variables in the Vercel dashboard
+5. Click **Deploy**
+
+Vercel will automatically detect your Next.js app and deploy it with optimal settings.
+
+### Deploy to Netlify
+
+1. **Sign up/Login** to [Netlify](https://www.netlify.com/)
+2. Click **"New site from Git"**
+3. Connect your GitHub account and select your repo
+4. Configure environment variables in **Site Settings > Environment**
+5. Click **Deploy Site**
+
+### Build for Production
+
+```bash
+# Build the application
+npm run build
+
+# Start production server
+npm start
+```
+
+### Environment Variables for Deployment
+
+Make sure to set these environment variables in your deployment platform:
+
+- `NEXT_PUBLIC_GTM` - Google Tag Manager ID
+- `NEXT_PUBLIC_APP_URL` - Your deployed app URL
+- `TELEGRAM_BOT_TOKEN` - For contact form notifications
+- `TELEGRAM_CHAT_ID` - Your Telegram chat ID
+- `GMAIL_PASSKEY` - Gmail app password
+- `EMAIL_ADDRESS` - Your email address
+
+---
+
+## 🔧 Troubleshooting
+
+### Common Issues and Solutions
+
+#### 1. Build Errors
+
+**Error:** `ReferenceError: document is not defined`
+- **Solution:** This has been fixed in the latest version. Make sure you're using the updated code.
+
+**Error:** `next is not recognized as an internal or external command`
+```bash
+npm install -g next
+npm run dev
+```
+
+#### 2. Skills Icons Not Showing
+
+**Issue:** Skills section shows question marks instead of icons
+- **Solution:** This has been resolved. The SVG icons are now properly configured as React components.
+
+#### 3. Environment Variables Not Working
+
+**Issue:** Contact form or other features not working
+- **Solution:** Make sure your `.env.local` file is in the root directory and variables are properly named.
+
+#### 4. Docker Issues
+
+**Issue:** Docker build fails
+```bash
+# Clear Docker cache and rebuild
+docker system prune -a
+docker-compose up --build
+```
+
+#### 5. Port Already in Use
+
+**Issue:** Port 3000 is already in use
+```bash
+# Kill process using port 3000
+npx kill-port 3000
+# Or use a different port
+npm run dev -- -p 3001
+```
+
+---
+
+## 📚 Tutorials
+
+### Gmail App Password Setup
+
+1. **Log in to your Google Account** at [https://myaccount.google.com/](https://myaccount.google.com/)
+2. Navigate to **Security** from the left sidebar
+3. Enable **2-Step Verification** if not already enabled
+4. Click on **App Passwords**
+5. Select **Mail** and **Other (Custom name)**
+6. Name it "Portfolio" and click **Generate**
+7. Copy the 16-character password for your `GMAIL_PASSKEY` environment variable
+
+### Create a Telegram Bot
+
+1. **Open Telegram** and search for **@BotFather**
+2. Start a chat and use `/newbot` command
+3. Choose a name and username for your bot
+4. Save the **Token** for your `TELEGRAM_BOT_TOKEN` environment variable
+5. To get your **Chat ID**:
+   - Send a message to your bot
+   - Visit: `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
+   - Find your chat ID in the response
+
+### Blog Integration with dev.to
+
+1. Set your `devUsername` in `utils/data/personal-data.js`
+2. The app automatically fetches your latest blog posts
+3. Ensure your blogs are publicly visible on dev.to
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies
+- **Next.js 15.5.2** - React framework with App Router
+- **React 19.0.0** - UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Sass** - CSS preprocessor
+
+### Key Dependencies
+- **@emailjs/browser** - Email service integration
+- **@next/third-parties** - Third-party integrations
+- **axios** - HTTP client
+- **lottie-react** - Animation library
+- **nodemailer** - Email sending
+- **react-fast-marquee** - Scrolling text animations
+- **react-google-recaptcha** - Form protection
+- **react-icons** - Icon library
+- **react-toastify** - Toast notifications
+- **sharp** - Image optimization
+
+### Development Tools
+- **@svgr/webpack** - SVG as React components
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixes
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who have helped improve this portfolio template
+- Special thanks to the Next.js and React communities
+- Icons provided by [React Icons](https://react-icons.github.io/react-icons/)
+- Animations powered by [Lottie](https://lottiefiles.com/)
+
+---
+
+## 📞 Contact
+
+**Vaibhav Chaudhary**
+- Email: vaibhavchaudhary508@gmail.com
+- LinkedIn: [vaibhav-chaudhary-4bb80933b](https://www.linkedin.com/in/vaibhav-chaudhary-4bb80933b)
+- GitHub: [vaibhavchau37](https://github.com/vaibhavchau37)
+- Portfolio: [vaibhav-chaudhary.netlify.app](https://vaibhav-chaudhary.netlify.app/)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you found it helpful!**
+
+Made with ❤️ by [Vaibhav Chaudhary](https://github.com/vaibhavchau37)
+
+</div> 

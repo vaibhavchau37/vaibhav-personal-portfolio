@@ -1,7 +1,6 @@
 "use client";
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 const Marquee = dynamic(() => import("react-fast-marquee"), { ssr: false });
 
@@ -38,7 +37,7 @@ function Skills() {
           play={true}
           direction="left">
           {skillsData.map((skill, id) => {
-            const icon = skillsImage(skill);
+            const IconComponent = skillsImage(skill);
             return (
               <div
                 className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
@@ -51,15 +50,8 @@ function Skills() {
                   </div>
                   <div className="flex flex-col items-center justify-center gap-3 p-6">
                     <div className="h-10 w-10 flex items-center justify-center">
-                      {icon &&
-                      typeof icon === "string" &&
-                      icon.trim() !== "" ? (
-                        <Image
-                          src={icon}
-                          width={40}
-                          height={40}
-                          alt={skill || "Skill icon"}
-                        />
+                      {IconComponent ? (
+                        <IconComponent width={40} height={40} />
                       ) : (
                         <div className="h-10 w-10 flex items-center justify-center bg-gray-700 text-white text-xs rounded-lg">
                           ?
