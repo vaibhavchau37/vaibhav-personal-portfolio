@@ -138,16 +138,16 @@ The page will automatically reload when you make changes to the source files.
 
 #### Option 1: Using Docker Compose (Recommended)
 
-```bash
+   ```bash
 # Build and run the application
-docker-compose up --build
+   docker-compose up --build
 
 # Access the application at http://localhost:3000
 ```
 
 #### Option 2: Using Docker directly
 
-```bash
+   ```bash
 # Build the Docker image
 docker build -t nextjs-portfolio -f Dockerfile.dev .
 
@@ -155,7 +155,7 @@ docker build -t nextjs-portfolio -f Dockerfile.dev .
 docker run -p 3000:3000 nextjs-portfolio
 
 # Access the application at http://localhost:3000
-```
+   ```
 
 ---
 
