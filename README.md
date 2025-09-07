@@ -290,7 +290,7 @@ Make sure to set these environment variables in your deployment platform:
 #### 1. Build Errors
 
 **Error:** `ReferenceError: document is not defined`
-- **Solution:** This has been fixed in the latest version. Make sure you're using the updated code.
+- **Solution:** This has been fixed in the latest version. The issue was caused by the GoogleTagManager component trying to access the document object during SSR. The component has been removed from the layout to prevent this error.
 
 **Error:** `next is not recognized as an internal or external command`
 ```bash
