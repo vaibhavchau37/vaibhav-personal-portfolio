@@ -29,7 +29,8 @@ A modern, responsive, and highly customizable portfolio website built with **Nex
 
 ## 🎬 Demo
 
-![Portfolio Preview](./public/image/screen.png)
+<img width="1848" height="946" alt="Screenshot 2025-08-31 192625" src="https://github.com/user-attachments/assets/4ffa1329-c6fb-48fd-807c-7831df75ac2c" />
+
 
 ### 🌐 Live Preview
 **View the live portfolio:** [vaibhav-chaudhary.netlify.app](https://vaibhav-chaudhary.netlify.app/)
