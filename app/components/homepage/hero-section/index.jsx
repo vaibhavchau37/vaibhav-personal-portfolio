@@ -33,7 +33,7 @@ function HeroSection() {
             Hello,
             <br />
             This is <span className=" text-pink-500">{personalData.name}</span>,
-            I'm a <span className=" text-[#16f2b3]">{personalData.designation}</span>.
+            I&apos;m a <span className=" text-[#16f2b3]">{personalData.designation}</span>.
           </h1>
 
           <div className="my-12 flex items-center gap-5">
