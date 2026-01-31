@@ -1,9 +1,9 @@
 export const personalData = {
   name: "VAIBHAV CHAUDHARY",
   profile: "/vaibhav.png",
-  designation: "ML/AI Developer",
+  designation: "ML/AI Engineer",
   description:
-    "My name is Vaibhav Chaudhary. I am a passionate Machine Learning and Artificial Intelligence developer with expertise in Deep Learning and Data Science. I specialize in developing innovative AI solutions and have a strong foundation in Generative AI technologies. Currently pursuing my education at PP Savani University, I combine theoretical knowledge with practical implementation in my projects. I am enthusiastic about solving complex problems using AI and constantly exploring new developments in the field. I am open to opportunities that align with my expertise in ML, AI, and Data Science.",
+    "Passionate ML & AI developer with hands-on experience in intelligent systems for agriculture and career analytics. Strong skills in Python, ML, NLP, and data-driven problem solving, with internship and hackathon recognition. Regularly explores modern AI tools and technologies to enhance learning and practical implementation.",
   email: "vaibhavchaudhary508@gmail.com",
   phone: "6355072709",
   address: " Kim, Surat",
@@ -12,5 +12,5 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/vaibhav-chaudhary-4bb80933b",
   instagram: "https://www.instagram.com/vaibhav__37",
   devUsername: "vaibhav37",
-  resume: "#", // Add your resume link here when you have it
+  resume: "/vaibhav_resume.pdf",
 };

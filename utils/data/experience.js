@@ -1,26 +1,10 @@
 export const experiences = [
   {
     id: 1,
-    title: "ML Model Research ",
-    company: "Self-projects.",
-    duration: "(Jan 2023 - Jun 2023)",
+    title: "Data Science Intern",
+    company: "Codec Technologies",
+    duration: "(Aug 2024 - Oct 2024)",
     description:
-      "Worked on implementing machine learning models and conducting research in computer vision applications.",
-  },
-  {
-    id: 2,
-    title: "AI/ML Developer",
-    company: "Fiverr (Freelance)",
-    duration: "(Jun 2022 - Dec 2022)",
-    description:
-      "Developed custom ML solutions and AI models for clients. Specialized in computer vision and NLP projects.",
-  },
-  {
-    id: 3,
-    title: "ML/AI Projects",
-    company: "Personal Projects & Research",
-    duration: "(2021)",
-    description:
-      "Building and implementing various machine learning projects, focusing on deep learning and AI applications.",
+      "Processed and cleaned industrial datasets to improve model training efficiency. Performed exploratory data analysis to identify patterns and trends for predictive modeling. Collaborated with mentors to document workflows and deploy machine learning solutions.",
   },
 ];

@@ -1,50 +1,56 @@
 export const projectsData = [
   {
     id: 1,
-    name: "Deep Learning Image Classification System",
+    name: "KrishiMitra AI – Intelligent Crop Recommendation System",
     description:
-      "Developed a state-of-the-art image classification system using deep learning techniques. Implemented CNN architectures using PyTorch and achieved high accuracy in classifying various object categories. The system includes data augmentation, transfer learning, and real-time inference capabilities.",
-    tools: ["Python", "PyTorch", "CNN", "OpenCV", "NumPy", "Transfer Learning"],
-    role: "ML Engineer",
+      "Designed an AI-driven agricultural decision system recommending crops using soil, weather, and regional datasets. Integrated real-time weather APIs and soil analytics to generate yield, ROI, and risk predictions for farmers. Provided disease insights and seasonal crop planning through Streamlit-based analytics dashboards.",
+    tools: [
+      "Python",
+      "Streamlit",
+      "Machine Learning",
+      "APIs",
+      "Data Analytics",
+      "AI",
+    ],
+    role: "ML Developer",
     code: "",
     demo: "",
   },
   {
     id: 2,
-    name: "Natural Language Processing Chatbot",
+    name: "AI Career Intelligence & Skill Gap Analyzer",
     description:
-      "Created an intelligent chatbot using advanced NLP techniques and transformer models. Implemented features like intent recognition, entity extraction, and context maintenance. The system was trained on custom dataset and integrated with a web interface for easy interaction.",
-    tools: ["Python", "TensorFlow", "BERT", "NLP", "Transformers", "Flask"],
+      "Created a Python-based NLP system that analyzes resumes, matches them to job roles, and computes job readiness scores. Detects skill gaps and produces personalized learning roadmaps using lightweight NLP similarity matching. Structured a modular pipeline for resume parsing, skill extraction, role prediction, and recommendations.",
+    tools: [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Text Processing",
+      "Data Analysis",
+    ],
     role: "AI Developer",
     code: "",
     demo: "",
   },
   {
     id: 3,
-    name: "Predictive Analytics Dashboard",
+    name: "GearGuard – Maintenance Management System",
     description:
-      "Developed a comprehensive analytics dashboard that uses machine learning to predict business metrics. Implemented various ML algorithms for time series forecasting, anomaly detection, and trend analysis. The system includes interactive visualizations and real-time data processing capabilities.",
-    tools: [
-      "Python",
-      "Scikit-learn",
-      "Pandas",
-      "Matplotlib",
-      "Streamlit",
-      "Machine Learning",
-    ],
+      "Engineered a full-stack maintenance management platform to monitor equipment and handle service requests. Integrated dashboards, Kanban workflows, scheduling calendar, and automated maintenance tracking modules. Delivered scalable REST APIs and responsive dashboards using Flask and React for operational monitoring.",
+    tools: ["Python", "Flask", "React", "REST APIs", "Full-Stack", "Dashboard"],
+    role: "Full-Stack Developer",
     code: "",
-    role: "Data Scientist",
     demo: "",
   },
   {
     id: 4,
-    name: "Generative AI Art Platform",
+    name: "ECOFlow – Engineering Change Order & PLM System",
     description:
-      "Built a creative platform that generates artistic images using GANs and diffusion models. Implemented various architectural innovations for better image quality and control. The system includes features like style transfer, image manipulation, and custom training capabilities.",
-    tools: ["Python", "PyTorch", "GANs", "Diffusion Models", "Computer Vision"],
+      "Built an enterprise Product Lifecycle Management platform supporting ECO workflows and version-controlled product data. Implemented multi-stage approval workflows and lifecycle enforcement ensuring secure and traceable change control. Delivered secure full-stack architecture using React, Node.js, and MongoDB with role-based access control.",
+    tools: ["React", "Node.js", "MongoDB", "Full-Stack", "REST APIs", "RBAC"],
+    role: "Full-Stack Developer",
     code: "",
     demo: "",
-    role: "AI Research Engineer",
   },
 ];
 
