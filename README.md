@@ -29,7 +29,8 @@ A modern, responsive, and highly customizable portfolio website built with **Nex
 
 ## 🎬 Demo
 
-<img width="1848" height="946" alt="Screenshot 2025-08-31 192625" src="https://github.com/user-attachments/assets/4ffa1329-c6fb-48fd-807c-7831df75ac2c" />
+<img width="1807" height="800" alt="image" src="https://github.com/user-attachments/assets/58a7e710-9abc-4d6b-a6b0-cb5bd54e2a6e" />
+
 
 
 ### 🌐 Live Preview
@@ -424,7 +425,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Email: vaibhavchaudhary508@gmail.com
 - LinkedIn: [vaibhav-chaudhary-4bb80933b](https://www.linkedin.com/in/vaibhav-chaudhary-4bb80933b)
 - GitHub: [vaibhavchau37](https://github.com/vaibhavchau37)
-- Portfolio: [vaibhav-chaudhary.netlify.app](https://vaibhav-chaudhary.netlify.app/)
+- Portfolio: https://vaibhav-personal-portfolio.vercel.app/
 
 ---
 
