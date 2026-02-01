@@ -33,7 +33,7 @@ A modern, responsive, and highly customizable portfolio website built with **Nex
 
 
 ### 🌐 Live Preview
-**View the live portfolio:** [vaibhav-chaudhary.netlify.app](https://vaibhav-chaudhary.netlify.app/)
+**View the live portfolio:** https://vaibhav-personal-portfolio.vercel.app/
 
 ### 📱 Mobile Responsive
 The portfolio is fully responsive and optimized for all devices - desktop, tablet, and mobile.
